@@ -13,4 +13,4 @@ jobs:
         run: |
           curl -s "https://dmnqaexxghiuzjgtrtj.supabase.co/rest/v1/funkos?limit=1" \
             -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
-            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}"
+           
